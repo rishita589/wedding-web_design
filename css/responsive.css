@@ -1,0 +1,364 @@
+@media only screen and (max-width: 576px){
+
+    .navbar{
+        height: 12vh;
+    }
+
+    .ban_head{
+        color: azure;
+        font-size: 28px;
+        font-family: 'Blacksword' , sans-serif;
+        padding-top: 10px;
+        text-align: center;
+        padding-right: 30px;
+       
+        
+    }
+    
+    .ban_para{
+        color: #fcd775;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        padding-right: 30px;
+       
+    }
+
+    .Our_passion{
+        background-image: url(../img/our_passion_bg3.png);
+        background-size: cover;
+        width: 100%;
+        height: 10vh;
+        background-repeat: no-repeat;
+        text-align: center;
+        
+    }
+    
+    .big_para{
+        text-align: center;
+    font-size: 25px;
+    color: rgb(30, 30, 31);
+    margin-top: 8px;
+    font-family: 'Blacksword' , sans-serif;
+    }
+    
+    
+    .small_para{
+        font-size: 10px;
+        color: rgb(61, 61, 61);
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+
+    .passion_images{
+        height: 30vh;
+        width: 100%;
+    }
+
+    .passion_short{
+        font-family: 'Poppins', sans-serif;
+         font-weight: 300;
+         font-size: 11px;
+    }
+
+    .spectacular{
+        padding-top: 190px;
+        text-align: center;
+    }
+
+    .spectacular_headline{
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .remem_para1{
+        font-size: 11px;
+    }
+
+    .remem_para2{
+        font-size: 11px;
+    }
+
+    .remem_picture1{
+        text-align: center;
+        
+    }
+
+    .spectacular_para{
+        /* padding-left: 64px; */
+        text-align: center;
+    }
+
+    .remem_paragraph{
+        text-align: center;
+    }
+
+    .for_event{
+        text-align: center;
+    }
+
+    .creating_wedding{
+        background-image: url(../img/creating_pic.png);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    }
+
+.creating_big{
+    font-size: 25px ;
+}
+
+.creating_para{
+    font-size:13px ;
+}
+
+.read_btn2{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: #dddddd;
+    font-size: 12px;
+
+}
+
+.creating_headline{
+    margin-top: 100px;
+}
+   
+}
+
+@media only screen and (max-width: 768px){
+
+    .navbar{
+        height: 12vh;
+    }
+
+    .ban_head{
+        color: azure;
+        font-size: 35px;
+        font-family: 'Blacksword' , sans-serif;
+        padding-top: 40px;
+        text-align: center;
+        padding-right: 30px;
+        
+    }
+    
+    .ban_para{
+        color: #fcd775;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        padding-right: 30px;
+    }
+
+    .Our_passion{
+        background-image: url(../img/our_passion_bg.png);
+        background-size: cover;
+        width: 100%;
+        height: 20vh;
+        background-repeat: no-repeat;
+        text-align: center;
+        
+    }
+    
+    .big_para{
+        text-align: center;
+    font-size: 26px;
+    color: rgb(30, 30, 31);
+    margin-top: 8px;
+    font-family: 'Blacksword' , sans-serif;
+    }
+    
+    
+    .small_para{
+        font-size: 13px;
+        color: rgb(61, 61, 61);
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+
+    .passion_images{
+        height: 30vh;
+        width: 100%;
+    }
+
+    .passion_short{
+        font-family: 'Poppins', sans-serif;
+         font-weight: 300;
+         font-size: 11px;
+    }
+
+    .spectacular{
+        padding-top: 270px;
+    }
+
+    .spectacular_headline{
+        font-size: 20px;
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+    .remem_para1{
+        font-size: 12px;
+    }
+
+
+    .creating_wedding{
+        background-image: url(../img/creating_pic.png);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    }
+
+.creating_big{
+    font-size: 25px ;
+}
+
+.creating_para{
+    font-size:13px ;
+}
+
+.read_btn2{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: #dddddd;
+    font-size: 12px;
+
+}
+
+.creating_headline{
+    margin-top: 140px;
+}
+    
+}
+
+@media only screen and (max-width: 992px){
+
+    .navbar{
+        height: 12vh;
+    }
+
+    .ban_head{
+        color: azure;
+        font-size: 35px;
+        font-family: 'Blacksword' , sans-serif;
+        padding-top: 40px;
+        text-align: center;
+        padding-right: 30px;
+        
+    }
+    
+    .ban_para{
+        color: #fcd775;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        padding-right: 30px;
+    }
+
+    .Our_passion{
+        background-image: url(../img/our_passion_bg.png);
+        background-size: cover;
+        width: 100%;
+        height: 20vh;
+        background-repeat: no-repeat;
+        text-align: center;
+        
+    }
+    
+    .big_para{
+        text-align: center;
+    font-size: 26px;
+    color: rgb(30, 30, 31);
+    margin-top: 8px;
+    font-family: 'Blacksword' , sans-serif;
+    }
+    
+    
+    .small_para{
+        font-size: 13px;
+        color: rgb(61, 61, 61);
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+
+    .passion_images{
+        height: 30vh;
+        width: 100%;
+    }
+
+    .passion_short{
+        font-family: 'Poppins', sans-serif;
+         font-weight: 300;
+         font-size: 11px;
+    }
+
+    .spectacular{
+        padding-top: 270px;
+    }
+
+    .spectacular_headline{
+        font-size: 20px;
+    }
+
+    .spectacular_para{
+        /* padding-left: 64px; */
+        text-align: center;
+    }
+
+
+    .remem_para1{
+        font-size: 12px;
+    }
+
+
+    .creating_wedding{
+        background-image: url(../img/creating_pic.png);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    }
+
+.creating_big{
+    font-size: 25px ;
+}
+
+.creating_para{
+    font-size:13px ;
+}
+
+.read_btn2{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: #dddddd;
+    font-size: 12px;
+
+}
+
+.creating_headline{
+    margin-top: 140px;
+}
+    
+    
+}
+
+@media only screen and (max-width: 1200px){
+    
+}
+
+@media only screen and (max-width: 1400px){
+    
+}

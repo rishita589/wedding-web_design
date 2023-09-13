@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sevara</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- responsive carousel -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- navbar start -->
+
+    <nav class="navbar fixed-top">
+        <div class="container">
+          
+
+          
+          <a class="navbar-brand" href="#"><img src="img/logo2.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        
+        </div>
+      </nav>
+
+      <!-- navbar end -->
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/banner.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/banner2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/banner3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      
+
+      <!-- banner end -->
+
+      <!-- our passion section start -->
+
+      <section class="Our_passion">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 passion_para">
+              <h1 class="big_para">Our Passion is your perfect event</h1>
+              <h5 class="small_para">Bringing dreams to life</h5>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="passion_images mt-3">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="img/wed_pic1.png">
+          </div>
+          <div class="item">
+            <img src="img/wed_pic2.png">
+          </div>
+          <div class="item">
+            <img src="img/wed_pic3.png">
+          </div>
+          <div class="item">
+            <img src="img/wed_pic4.png">
+          </div>
+          <div class="item">
+            <img src="img/wed_pic5.png">
+          </div>
+          <div class="item">
+            <img src="img/wed_pic12.png">
+          </div>
+          <div class="item">
+            <img src="img/wed_pic6.png">
+          </div>
+          <div class="item">
+            <img src="img/wed_pic7.png">
+          </div>
+          <div class="item">
+            <img src="img/wed_pic8.png">
+          </div>
+          <div class="item">
+            <img src="img/wed_pic11.png">
+          </div>	
+          <div class="item">
+            <img src="img/wed_pic9.png">
+          </div>	
+          <div class="item">
+            <img src="img/wed_pic10.png">
+          </div>			
+        </div>
+        
+
+        <div class="container text-center py-5">
+          <div class="row">
+
+            <div class="col-lg-12 col-md-12 col-sm-12"></div>
+
+            <p class="passion_short">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vitae sapiente obcaecati quaerat ullam delectus expedita modi blanditiis repudiandae autem sit error voluptatibus accusantium rem totam, incidunt quidem esse! Voluptatum.</p>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- our passion section end -->
+
+      <!-- make any occasion start -->
+      <section class="spectacular mt-5">
+        <div class="container">
+          <h1 class="spectacular_headline" style="text-align: center;"><span style="color: #724126; font-weight: 400;">Make Any Occasion</span> <span style="font-weight: 300;">Unforgettable</span></h1>
+          <div class="row mt-5">
+            <div class="col-sm-12 col-md-6 col-lg-6 ">
+              <img src="img/rem_pic1.png" class="remem_picture1">
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 spectacular_para py-5">
+              <h5 style="color:#724126">Remembered always</h5>
+              <h1 class="spectacular_headline">A spectacular turn for events</h1>
+              <p class="remem_para1" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eligendi obcaecati reprehenderit accusamus vel officia sapiente quod. Ex nihil laboriosam commodi veritatis hic quibusdam enim impedit voluptatum ullam, natus reprehenderit!</p>
+              <button type="button" class="read_btn mt-3">Read More</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="for_event mt-5">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-12 col-md-6 col-lg-6 remem_paragraph py-5">
+              <h5 style="color:#724126">To the moon and back</h5>
+              <h1 class="spectacular_headline">For events as unique as you</h1>
+              <p class="remem_para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eligendi obcaecati reprehenderit accusamus vel officia sapiente quod. Ex nihil laboriosam commodi veritatis hic quibusdam enim impedit voluptatum ullam, natus reprehenderit!</p>
+              <button type="button" class="read_btn mt-3">Read More</button>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 ">
+              <img src="img/rem_pic2.png" class="remem_picture2">
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- make any occasion end -->
+
+      <!-- creating start -->
+      <section class="creating_wedding mt-5">
+        <div class="container">
+          <div class="row ">
+            <div class="col-sm-12 col-md-12  col-lg-12  creating_headline text-center ">
+              <h1 class="creating_big">Creating the wedding day of your dreams</h1>
+              <h5 class="creating_para mt-3">Let us make your day perfect</h5>
+              <button type="button" class="read_btn2 btn-light mt-4">Read More</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- creating end -->
+
+      <!-- best day start -->
+      <section class="the_best ">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center mt-5">
+               <h1><span style="color: #724126; font-weight: 400;">Creating The Best</span> Day Ever</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.  
+              </p>
+
+            </div>
+          </div>
+
+          
+            <div class="row mt-5">
+              <div class="col-sm-12 col-md-6 col-lg-3 best">
+                <img src="img/pic_best1.png">
+                <div class="content">
+                  <h2>Engagement Ceremony</h2>
+                </div>
+              </div>
+  
+              <div class="col-sm-12 col-md-6 col-lg-3 best mt-5">
+                <img src="img/pic_best2.png">
+                <div class="content2">
+                  <h2>Haldi <br> Ceremony</h2>
+                </div>
+              </div>
+  
+              <div class="col-sm-12 col-md-6 col-lg-3 best ">
+                <img src="img/pic_best3.png">
+                <div class="content">
+                  <h2>Wedding Ceremony</h2>
+                </div>
+              </div>
+  
+              <div class=" col-sm-12 col-md-6 col-lg-3 best mt-5">
+                <img src="img/pic_best4.png">
+                <div class="content2">
+                  <h2>Wedding Reception</h2>
+                </div>
+              </div>
+            </div>
+
+          
+          
+        </div>
+      </section>
+      <!-- best day end -->
+
+      <!-- desire_meet start -->
+
+      <section class="desire_meet">
+        <div class="container">
+          <div class="row">
+            <div class=" col-sm-12 col-md-6 col-lg-6 desire_event">
+              <h5 style="color:#724126">Desire meets Events</h5>
+              <h1>Incredible Ideas for Events</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis beatae molestias, dicta quam minima velit numquam aperiam ratione voluptatem voluptas, explicabo sapiente quos! Facere suscipit delectus sequi consectetur itaque odit.</p>
+              <button type="button" class="read_btn mt-3">Read More</button>
+
+            </div>
+
+            <div class=" col-sm-6 col-md-12 col-lg-3 mt-5">
+              <button type="button" class="meet_btn">
+                <img src="img/wedding_ring.png" alt="">
+                <h2>Weddings</h2>
+              </button>
+
+              <button type="button" class="meet_btn2">
+                <img src="img/musical_note.png" alt="">
+                <h2>Entertainment</h2>
+              </button>
+
+            </div>
+
+            <div class=" col-sm-6 col-md-12 col-lg-3">
+              <button type="button" class="meet_btn">
+                <img src="img/champagne.png" alt="">
+                <h2>Parties</h2>
+              </button>
+
+              <button type="button" class="meet_btn2">
+                <img src="img/celebrations.png" alt="">
+                <h2>Celebrations</h2>
+              </button>
+
+            </div>
+
+            
+          </div>
+        </div>
+
+      </section>
+
+      <!-- desire_meet end -->
+
+      <!-- we_provide start -->
+
+      <section class="we_provide mt-5">
+        <div class="container">
+          <div class="row">
+            <div class=" col-sm-12 col-md-6 col-lg-6 py-5">
+              <img src="img/haldi.png" style="width: 600px;">
+
+            </div>
+
+            <div class=" col-sm-12 col-md-6 col-lg-6 mt-5">
+              <h5 style="color:#724126">We provide best wedding</h5>
+              <h1>We are speacialised at</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fugiat nostrum beatae similique alias, fuga optio a cumque est natus perferendis nulla et quod ipsum .</p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- we_provide end -->
+
+      <!-- gallery start -->
+
+      <section class="gallery ">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-12 text-center mt-5">
+              <h1>Our Gallery</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic velit quas officia architecto numquam eaque fuga vitae consectetur illo corporis, libero aut impedit adipisci unde commodi veritatis, eum modi exercitationem.</p>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-sm-12 col-md-4 col-lg-3">
+              <img src="img/gallery_pic1.png">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-6 ">
+              <img src="img/outdoor-wedding-aisle.jpeg" style="width: 650px;">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+              <img src="img/gallery_pic3.png">
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <img src="img/gallery_pic4.png" style="width: 650px;">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <img src="img/gallery_pic5.png" style="width: 650px;">
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- gallery end -->
+
+      <!-- lifetime start -->
+      <section class="lifetime mt-5">
+        <div class="container">
+          <div class="row ">
+            <div class="col-sm-12 col-md-6 col-lg-6 ">
+              <h1 class="lifetime_big">To a lifetime of <br>adventure together</h1>
+              <h5 class="lifetime_para mt-3">And so the adventure begins</h5>
+              <button type="button" class="read_btn2 btn-light mt-4">Read More</button>
+              <button type="button" class="reg">Register</button>
+            </div>
+
+            <div class=" col-sm-12 col-md-6 col-lg-6 book_form mt-5">
+
+              <h3>Book your wedding date</h3>
+
+              <form action="/action_page.php">
+                
+                <input type="text" id="fname" name="firstname" placeholder="Booking Date..">
+                           
+                <input type="text" id="lname" name="lastname" placeholder="Full Name..">
+
+                <input type="text" id="lname" name="lastname" placeholder="E-mail..">
+                         
+                <select id="country" name="country">
+                  <option value="australia">India</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="australia">Australia</option>
+                  <option value="australia">More..</option>
+                </select>
+            
+            
+                <input type="submit" value="Register">
+              </form>
+              
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- lifetime end -->
+
+      <!-- contact start -->
+      <section class="cont">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center mt-5">
+              <h1>Contact Us</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quos, quidem natus laudantium magni sed asperiores ipsum rem doloremque, expedita saepe id.</p>
+            </div>  
+            <div class="row mt-5">
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29495.393214593987!2d88.34833517431638!3d22.469484400000027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02765321b3ac7b%3A0x57a5e9e246a0e8ce!2sSparckle%20Entertainment!5e0!3m2!1sen!2sin!4v1690786918384!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-6">
+
+                <h3>Get In Touch</h3>
+
+                <form action="/action_page.php">
+                
+                  <input type="text" id="fname" name="firstname" placeholder="Booking Date..">
+                             
+                  <input type="text" id="lname" name="lastname" placeholder="Full Name..">
+  
+                  <input type="text" id="lname" name="lastname" placeholder="E-mail..">
+              
+              
+                  <button type="button" class=" sub btn-light mt-4">Submit</button>
+                </form>
+
+              </div>
+            </div>         
+          </div>
+        </div>
+
+      </section>
+      
+      <!-- contact end -->
+
+      <!-- footer start -->
+      <section class="foot">
+        <div class="container">
+          <div class="row">
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4 foot_para mt-5">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, veniam cupiditate illum magni neque harum. Suscipit, debitis, harum fugiat, eveniet mollitia ut consequuntur dolorem impedit aliquid error maiores reiciendis aspernatur.</p>
+              <div class="icons mt-4">
+                <img src="img/fb.png">
+                <img src="img/perinterest.png">
+                <img src="img/twitter.png">
+              </div>
+
+            </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4 foot_para">
+              <h3>Latest News</h3>
+              <ul>
+                <li>Lorem ipsum, dolor sit amet consectetur</li>
+                <li>Lorem ipsum, dolor sit amet consectetur</li>
+                <li>Lorem ipsum, dolor sit amet consectetur</li>
+                <li>Lorem ipsum, dolor sit amet consectetur</li>
+              </ul>
+
+            </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4 foot_para">
+              <h3>Contact Info</h3>
+              <div class="add">
+                <img src="img/loc.png"><p>234k Avenue, 4th block,
+                  New York City</p>
+              </div>
+
+              <div class="add">
+                <img src="img/mail3.png"><p>construction.20@gmail.com</p>
+              </div>
+
+              <div class="add">
+                <img src="img/phon.png"><p>+91409-56-99</p>
+              </div>
+
+            </div> -->
+            <div class="ft_logo">
+              <img src="img/logo2.png">
+              <div class="icons mt-4">
+                <img src="img/fb.png">
+                <img src="img/perinterest.png">
+                <img src="img/twitter.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <!-- footer end -->
+
+      <!-- responsive carousel -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:false,
+    autoplay:true,
+    autoplayTimeout:1300,
+    stagePadding:50,
+      responsive:{
+          0:{
+              items:1
+          },
+          572:{
+              items:3
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:4
+          },
+      1400:{
+              items:4
+          }
+      }
+  })
+    </script>
+
+
+
+
+
+  </body>
+</html>
