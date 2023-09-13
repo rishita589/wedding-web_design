@@ -93,6 +93,10 @@ font-family: 'Blacksword' , sans-serif;
 
 /* make any occasion start */
 
+.remem_picture1{
+    margin-left: 160px;
+}
+
 .spectacular_para{
     align-items: center;
 
@@ -107,6 +111,7 @@ font-family: 'Blacksword' , sans-serif;
     height: 40px;
     border: none;
     background-color: #fcc789;
+    box-shadow: 6px 5px 4px 4px rgba(0,0,0,0.75);
 }
 
 .remem_para1{
@@ -130,7 +135,7 @@ font-family: 'Blacksword' , sans-serif;
 }
 
 .creating_big{
-    color: azure;
+    color: azure;d_btn
      font-size: 60px;
       text-align: center; 
       font-family: 'Blacksword' , sans-serif;
@@ -149,6 +154,7 @@ font-family: 'Blacksword' , sans-serif;
     height: 40px;
     border: none;
     background-color: #dddddd;
+    
 
 }
 
