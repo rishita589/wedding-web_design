@@ -1,334 +1,149 @@
 *{margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Alex Brush', cursive;
-font-family: 'Poppins', sans-serif;
-
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-@font-face{
-   font-family: 'Blacksword';
-   src: url(../fonts/Blacksword.otf);
-}
-
-.navbar-toggler-icon{
-    color: azure;
-}
-
-.navbar{
-    background: rgba(0,0,0,0.2);
-}
-
-/* banner section start */
-
-.ban_txt{
-    position: absolute;
-    z-index: 1;  
-    align-items: center;    
-
-}
-
-.ban_head{
-    color: azure;
-    font-size: 70px;
-    /* font-family: 'Alex Brush', cursive; */
-    font-family: 'Blacksword' , sans-serif;
-    padding-top: 100px;
-    text-align: center;
-    padding-right: 190px;
-    
-}
-
-.ban_para{
-    color: #fcd775;
-    font-size: 25px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alex Brush', cursive;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-right: 190px;
-}
-/* banner section end */
-
-/* our passion section start */
-
-.Our_passion{
-    background-image: url(../img/our_passion_bg.png);
-    background-size: cover;
-    height: 40vh;
-    background-repeat: no-repeat;
-    text-align: center;
     
-}
-
-.passion_para{
-    margin-top: 25px;
-}
-
-.big_para{
-    text-align: center;
-font-size: 60px;
-color: rgb(30, 30, 31);
-margin-top: 40px;
-font-family: 'Blacksword' , sans-serif;
-}
-
-
-.small_para{
-    font-size: 20px;
-    color: rgb(61, 61, 61);
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-}
-.passion_short{
-    font-family: 'Poppins', sans-serif;
-     font-weight: 300;
-}
-
-/* our passion section end */
-
-/* make any occasion start */
-
-.remem_picture1{
-    margin-left: 160px;
-}
-
-.spectacular_para{
-    align-items: center;
-
-}
-.remem_picture2{
-   margin-left: 160px; 
-  
-}
-
-.read_btn{
-    width: 120px;
-    height: 40px;
-    border: none;
-    background-color: #fcc789;
-    box-shadow: 6px 5px 4px 4px rgba(0,0,0,0.75);
-}
-
-.remem_para1{
-    font-family: 'Poppins', sans-serif;
-     font-weight: 300;
-      margin-top: 20px;
-}
-/* make any occasion end */
-
-/* creating start */
-.creating_wedding{
-    background-image: url(../img/creating_pic.png);
-    background-size: cover;
-    height: 70vh;
-    background-repeat: no-repeat;
-    object-fit: cover;
-}
-
-.creating_headline{
-    margin-top: 150px;
-}
-
-.creating_big{
-    color: azure;d_btn
-     font-size: 60px;
-      text-align: center; 
-      font-family: 'Blacksword' , sans-serif;
-}
-
-.creating_para{
-    color: azure;
-     font-size: 25px; 
-     text-align: center; 
-     font-family: 'Poppins', sans-serif;
-     font-weight: 300;
-}
-
-.read_btn2{
-    width: 120px;
-    height: 40px;
-    border: none;
-    background-color: #dddddd;
-    
-
-}
-
-
-/* creating end */
-
-.the_best{
-    padding-top: 80px;
-}
-
-/* best day start */
-/* .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-    background: black;
-    cursor: pointer;
-}
-.content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-}
-
-.best_1:hover .overlay{
-    opacity: 0.8;
-} */
-
-.best{
-    position: relative;
-    
-}
-
-.content{
-    width: 86%;
-    height: 89%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-    margin-left: 7px;
-}
-
-.content:hover{
-    opacity: 1;
-}
-
-.content h2{
-    color: #ffffff;
-    text-align: center;
-    
-}
-
-.content2{
-    width: 86%;
-   
-    position: absolute;
-    top: 0;
-    left: 9;
-    bottom: 0;
-    padding-top: 40px;
-    background: rgba(0,0,0,0.4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-    padding-left: 7px;
-}
-
-.content2:hover{
-    opacity: 1;
-}
-
-.content2 h2{
-    color: #ffffff;
-    text-align: center;
-    
-}
-
-/* best day end */
-
-.desire_meet{
-    margin-top: 150px;
-}
-
-.desire_event{
-    margin-top: 120px;
-}
-
-.meet_btn{
-    border: none;
-    width: 230px;
-    height: 240px;
-    background: #e7a353;
-}
-
-.meet_btn h2{
-    color: #ffffff;
-    font-size: 28px;
-}
-
-.meet_btn2{
-    border: none;
-    width: 230px;
-    height: 240px;
-    background: #e7a353;
-    margin-top: 30px;
-}
-
-.meet_btn2 h2{
-    color: #ffffff;
-    font-size: 28px;
-}
-
-.we_provide{
-    margin-top: 200px;
-}
-
-.lifetime{
-    background-image: url(../img/lifetime.png);
-    background-size: cover;
-    height: 70vh;
-    background-repeat: no-repeat;
-    object-fit: cover; 
-}
-
-.lifetime_big{
-    color: azure;
-     font-size: 60px;
-      text-align: left; 
-      font-family: 'Blacksword' , sans-serif;
-    padding-top: 200px;
-}
-
-.lifetime_para{
-    color: azure;
-     font-size: 25px; 
-     text-align: left; 
-     font-family: 'Poppins', sans-serif;
-     font-weight: 300;
-}
-
-.reg {
-    transition-duration: 0.4s;
-    width: 120px;
-    height: 40px;
-    border: 2px solid #dddddd;
-    background: none;
-    color: #dddddd;
-    margin-left: 30px;
-  }
-  
-  .reg:hover { 
-    background-color: #dddddd;
-    color: black;
     }
- 
     
-
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    @font-face{
+       font-family: 'Blacksword';
+       src: url(../fonts/Blacksword.otf);
+    }
+    
+    .navbar-toggler-icon{
+        color: azure;
+    }
+    
+    .navbar{
+        background: rgba(0,0,0,0.2);
+    }
+    
+    /* banner section start */
+    
+    .ban_txt{
+        position: absolute;
+        z-index: 1;  
+        align-items: center;    
+    
+    }
+    
+    .ban_head{
+        color: azure;
+        font-size: 70px;
+        /* font-family: 'Alex Brush', cursive; */
+        font-family: 'Blacksword' , sans-serif;
+        padding-top: 100px;
+        text-align: center;
+        padding-right: 190px;
+        
+    }
+    
+    .ban_para{
+        color: #fcd775;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        padding-right: 190px;
+    }
+    /* banner section end */
+    
+    /* our passion section start */
+    
+    .Our_passion{
+        background-image: url(../img/our_passion_bg.png);
+        background-size: cover;
+        height: 40vh;
+        background-repeat: no-repeat;
+        text-align: center;
+        
+    }
+    
+    .passion_para{
+        margin-top: 25px;
+    }
+    
+    .big_para{
+        text-align: center;
+    font-size: 60px;
+    color: rgb(30, 30, 31);
+    margin-top: 40px;
+    font-family: 'Blacksword' , sans-serif;
+    }
+    
+    
+    .small_para{
+        font-size: 20px;
+        color: rgb(61, 61, 61);
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+    .passion_short{
+        font-family: 'Poppins', sans-serif;
+         font-weight: 300;
+    }
+    
+    /* our passion section end */
+    
+    /* make any occasion start */
+    
+    .spectacular_para{
+        align-items: center;
+    
+    }
+    .remem_picture2{
+       margin-left: 160px; 
+      
+    }
+    
+    .read_btn{
+        width: 120px;
+        height: 40px;
+        border: none;
+        background-color: #fcc789;
+    }
+    
+    .remem_para1{
+        font-family: 'Poppins', sans-serif;
+         font-weight: 300;
+          margin-top: 20px;
+    }
+    /* make any occasion end */
+    
+    /* creating start */
+    .creating_wedding{
+        background-image: url(../img/creating_pic.png);
+        background-size: cover;
+        height: 70vh;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    
+    .creating_headline{
+        margin-top: 150px;
+    }
+    
+    .creating_big{
+        color: azure;
+         font-size: 60px;
+          text-align: center; 
+          font-family: 'Blacksword' , sans-serif;
+    }
+    
+    .creating_para{
+        color: azure;
+         font-size: 25px; 
+         text-align: center; 
+         font-family: 'Poppins', sans-serif;
+         font-weight: 300;
+    }
+    
     .read_btn2{
         width: 120px;
         height: 40px;
@@ -336,67 +151,246 @@ font-family: 'Blacksword' , sans-serif;
         background-color: #dddddd;
     
     }
-
-    .book_form{
+    
+    
+    /* creating end */
+    
+    .the_best{
         padding-top: 80px;
     }
-
-    .book_form h3{
-        color: #ffffff;
-    }
-
-    input[type=text], select, textarea {
-        width: 100%;
-        padding: 12px;
-        border: 3px solid #ccc;
-        background: none;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        color: #ffffff;
-        resize: vertical;
-      }
-      
-      input[type=submit] {
-        width: 640px;
-        background-color: #ffffff;
-        color: rgb(0, 0, 0);
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      
-      input[type=submit]:hover {
-        background-color: #fcc789;
-        color: #000000;
-      }
-
-      .sub{
-        width: 640px;
-        background-color: #242322;
-        color: rgb(255, 255, 255);
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-
-      .foot{
-        background-color: #232322;
-        margin-top: 50px;
-        padding-top: 40px;
-      }
-
-      .foot_para{
-        color: #ffffff;
-        font-size: 12px;
-      }
-.ft_logo{
-    text-align: center;
-}
-      
-      
-
     
+    /* best day start */
+    /* .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: opacity 0.4s ease-in-out;
+        background: black;
+        cursor: pointer;
+    }
+    .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+    
+    .best_1:hover .overlay{
+        opacity: 0.8;
+    } */
+    
+    .best{
+        position: relative;
+        
+    }
+    
+    .content{
+        width: 86%;
+        height: 89%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        transition: 0.6s;
+        margin-left: 7px;
+    }
+    
+    .content:hover{
+        opacity: 1;
+    }
+    
+    .content h2{
+        color: #ffffff;
+        text-align: center;
+        
+    }
+    
+    .content2{
+        width: 86%;
+       
+        position: absolute;
+        top: 0;
+        left: 9;
+        bottom: 0;
+        padding-top: 40px;
+        background: rgba(0,0,0,0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        transition: 0.6s;
+        padding-left: 7px;
+    }
+    
+    .content2:hover{
+        opacity: 1;
+    }
+    
+    .content2 h2{
+        color: #ffffff;
+        text-align: center;
+        
+    }
+    
+    /* best day end */
+    
+    .desire_meet{
+        margin-top: 150px;
+    }
+    
+    .desire_event{
+        margin-top: 120px;
+    }
+    
+    .meet_btn{
+        border: none;
+        width: 230px;
+        height: 240px;
+        background: #e7a353;
+    }
+    
+    .meet_btn h2{
+        color: #ffffff;
+        font-size: 28px;
+    }
+    
+    .meet_btn2{
+        border: none;
+        width: 230px;
+        height: 240px;
+        background: #e7a353;
+        margin-top: 30px;
+    }
+    
+    .meet_btn2 h2{
+        color: #ffffff;
+        font-size: 28px;
+    }
+    
+    .we_provide{
+        margin-top: 200px;
+    }
+    
+    .lifetime{
+        background-image: url(../img/lifetime.png);
+        background-size: cover;
+        height: 70vh;
+        background-repeat: no-repeat;
+        object-fit: cover; 
+    }
+    
+    .lifetime_big{
+        color: azure;
+         font-size: 60px;
+          text-align: left; 
+          font-family: 'Blacksword' , sans-serif;
+        padding-top: 200px;
+    }
+    
+    .lifetime_para{
+        color: azure;
+         font-size: 25px; 
+         text-align: left; 
+         font-family: 'Poppins', sans-serif;
+         font-weight: 300;
+    }
+    
+    .reg {
+        transition-duration: 0.4s;
+        width: 120px;
+        height: 40px;
+        border: 2px solid #dddddd;
+        background: none;
+        color: #dddddd;
+        margin-left: 30px;
+      }
+      
+      .reg:hover { 
+        background-color: #dddddd;
+        color: black;
+        }
+     
+        
+    
+        .read_btn2{
+            width: 120px;
+            height: 40px;
+            border: none;
+            background-color: #dddddd;
+        
+        }
+    
+        .book_form{
+            padding-top: 80px;
+        }
+    
+        .book_form h3{
+            color: #ffffff;
+        }
+    
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 3px solid #ccc;
+            background: none;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            color: #ffffff;
+            resize: vertical;
+          }
+          
+          input[type=submit] {
+            width: 640px;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #fcc789;
+            color: #000000;
+          }
+    
+          .sub{
+            width: 640px;
+            background-color: #242322;
+            color: rgb(255, 255, 255);
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+    
+          .foot{
+            background-color: #232322;
+            margin-top: 50px;
+            padding-top: 40px;
+          }
+    
+          .foot_para{
+            color: #ffffff;
+            font-size: 12px;
+          }
+    .ft_logo{
+        text-align: center;
+    }
+          
+          
+    
+        
